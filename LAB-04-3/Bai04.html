@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Document</title>
+    <style>
+    * {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.menu {
+  width: 200px;
+  border: 1px solid #000;
+}
+
+.header {
+  color: #000000;
+  font-weight: bold;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #ffffff;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  margin-left: 10px;
+}
+
+li:hover {
+  background-color: red;
+  color: white;
+}
+
+li:hover box-icon {
+  color: #ffffff;
+}
+    </style>
+</head>
+<body>
+    <div class="menu">
+       
+        <div class="header-container">
+            <box-icon name='menu'></box-icon>
+            <div class="header">DANH MỤC</div>
+          </div>
+          <hr style="border:1px solid black;">
+        <ul>
+           
+            <li> <box-icon name='home-circle' ></box-icon><span>Trang chủ</span></li>
+         
+            
+            <li> <box-icon name='credit-card-alt' ></box-icon><span>San pham</span></li>
+           
+            <li> <box-icon name='shield-alt-2' ></box-icon><span>Dich vu</span></li>
+            
+            <li> <box-icon name='shield-alt-2' ></box-icon><span>Ho tro</span></li>
+            
+
+            <li> <box-icon name='shield-alt-2' ></box-icon><span>Lien he</span></li>
+  
+        </ul>
+    </div>
+</body>
+</html>

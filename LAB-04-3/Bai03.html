@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Menu</title>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+    }
+    a{
+            text-decoration: none;
+            color: #000000;
+
+     }   
+        nav,.menu-1,.menu-2{
+
+background-color: gray;
+}
+ul{
+            list-style: none;           
+            display: flex;
+        }
+         ul li{
+            padding: 1rem;
+            position: relative;
+        }
+ul li:hover{
+    background-color: green;
+}
+        ul li>a:hover {
+    color: rgb(245, 245, 245);
+    
+}
+        .menu-2{
+            display: block;
+            position: absolute;           
+            top:100%;
+            left: 0;
+            visibility: hidden;
+        }
+
+        ul li:hover .menu-2 {
+            visibility: visible;
+            
+        
+           
+        }
+
+ul li>a{
+    display: flex;
+    width: max-content;
+
+}
+ul li>:hover{
+
+}
+.n02{
+    border-left: 1 px red;
+}
+ul:first-child{
+    border-left: 0px;
+}
+       
+        
+</style>  
+</head>
+<body>
+    <nav>
+        <ul class="menu-1">
+            <li class="n01"><a href="#">Trang chu</a></li>
+            <li class="n02"><a href="#">Khoa hoc</a>
+                <ul class="menu-2">                            
+                            <li><a href="#">Lap trinh web PHP & My SQL</a></li>
+                            <li><a href="#">Lap trinh web NETCORE</a></li>
+                            <li><a href="#">Lap trinh web Jave Springgboot</a></li>
+                        </ul>
+                    </li>
+                    <li class="n02"><a href="#">Dich vu</a></li>
+                    <li class="n02"><a href="#">Ho tro</a></li>
+                    <li class="n02"><a href="#">Lien he</a></li>
+               
+                </ul>
+            </li>
+           
+        </ul>
+
+      
+    </nav>
+</body>
+</html>

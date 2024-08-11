@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: green;
+}
+.locations > li {
+    margin-bottom: 10px;
+}
+.locations > li > strong {
+    font-size: 18px;
+}
+.locations a {
+    color: blue;
+}
+.locations a:hover {
+    text-decoration: underline;
+}
+.locations ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+.locations ul li {
+    margin-top: 5px;
+}
+table, tr, th, td{
+    border: 1px solid black;
+
+}
+label{
+    color: red;
+}
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Girl Develop It</h1> <br>
+        <h5>Don't be shy, Develop it</h5>
+    </div>
+    <div id="body-1">
+        <h1>About</h1>
+        <p>Hi, I’m John. I’m 30 years old, originally from New York, and currently living in Los Angeles. I hold a bachelor’s degree in marketing from UCLA. I work as a marketing manager at XYZ Company, where I oversee branding and digital marketing initiatives. In my free time, I enjoy playing the guitar, and I’m particularly passionate about football. I’m writing this introduction to connect with professionals in the marketing industry.</p>
+    </div>
+    <div id="body-2">
+        <h1>Our Locations</h1>
+    <ul class="locations">
+        <li><strong>USA</strong>
+            <ul>
+                <li><a href="#">New York</a></li>
+                <li><a href="#">Columbus</a></li>
+                <li><a href="#">Austin</a></li>
+                <li><a href="#">Philly</a></li>
+            </ul>
+        </li>
+        <li><strong>World</strong>
+            <ul>
+                <li><a href="#">Ottawa</a></li>
+                <li><a href="#">Sydney</a></li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+    <div id="body-3">
+        <h1>Upcoming Classes</h1>
+        <table id="table">
+            <tr>
+                <th>Location</th>
+                <th>Topic</th>
+            </tr>
+            <tr>
+                <td style="color: blue;">New York</td>
+                <td style="color: purple;">Javascript & Jquery</td>
+            </tr>
+            <tr>
+                <td style="color: blue;">San Franciso</td>
+                <td style="color: purple;">HTML & CSS</td>
+            </tr>
+        </table>
+    </div>
+    <div id="body4">
+        <h1>Sign Up!</h1>
+        <form action="POST">
+            <label for="Name">Name:</label> 
+            <input type="Name" id="" value="" required> <br>
+            <label for="Email">Email:</label> 
+            <input type="email" id="" value="" required> <br>
+            <label for="Location">Location:</label>
+            <select name="thanhPho" id="thanhPho">
+                <option value="HP">Hải Phòng</option>
+                <option value="HN">Hà Nội</option>
+                <option value="BN">Bắc Ninh</option>
+                <option value="BG">Bắc Giang</option>
+            </select> <br>
+            
+        <label for="gender">Gender</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="femail" name="gender" value="femail">
+                <label for="css">Female</label><br>
+        <label for="input">Experience:</label>  <br>
+        <textarea id="experience" name="experience" rows="4" cols="50"></textarea> <br>
+        <button>Sign up</button><br>
+        <a href="">Twitter </a>|
+        <a href="">Facebook </a>| 
+        <a href="">Flickr</a>
+
+        
+    </div>
+</body>
+</html>
